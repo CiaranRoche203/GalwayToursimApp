@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:GalwayToursimApp"
+             x:Class="GalwayToursimApp.MainPage">
+
+    <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
+        <Button Text="Food and Drink" BackgroundColor="LightGray" Font="Bold, 20" HeightRequest="170" Clicked="NavigateButton_OnClicked">
+        </Button>
+        <Button Text="Entertainment" BackgroundColor="Beige" Font="Bold, 20" HeightRequest="170" Clicked="Navigation_Clicked_1"/>
+        <Button Text="Transport and Services" BackgroundColor="Ivory" Font="Bold, 20" HeightRequest="170" Clicked="Button_Clicked"/>
+        <Button Text="Map" BackgroundColor="AliceBlue" HeightRequest="170" Font="Bold, 20" Clicked="Button_Clicked_1"/>
+
+
+    </StackLayout>
+
+
+</ContentPage>

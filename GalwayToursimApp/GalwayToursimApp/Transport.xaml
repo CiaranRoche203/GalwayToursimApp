@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.Transport">
+    <ContentPage.Content>
+        <ScrollView>
+            
+        
+        <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="FillAndExpand">
+            
+            <StackLayout>
+                    <Button Text="route 401" BackgroundColor="AliceBlue" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_2"/>
+            </StackLayout>
+            <StackLayout>
+                    <Button Text="route 402" BackgroundColor="beige" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked"/>
+            </StackLayout>
+            <StackLayout>
+                    <Button Text="route 404" BackgroundColor="AliceBlue" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_3"/>
+            </StackLayout>
+
+
+            <StackLayout>
+                    <Button Text="route 405" BackgroundColor="Beige" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_4"/>
+
+            </StackLayout>
+
+            <StackLayout>
+                    <Button Text="route 407" BackgroundColor="AliceBlue" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_6"/>
+            </StackLayout>
+
+            <StackLayout>
+                    <Button Text="route 409" BackgroundColor="beige" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_8"/>
+
+            </StackLayout>
+
+            <StackLayout>
+                    <Button Text="Other Routes" BackgroundColor="AliceBlue" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_12"/>
+            </StackLayout>
+            <StackLayout>
+                    <Button Text="Extra info on transport available" BackgroundColor="Bisque" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_1"/>
+            </StackLayout>
+
+            <StackLayout>
+                    <Button Text="Pro Cabs Taxis Phone" BackgroundColor="Cyan" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_5"/>
+            </StackLayout>
+
+                <StackLayout>
+                    <Button Text="Pictures of Galway" BackgroundColor="Bisque" HeightRequest="80" Font="Bold, 15" Clicked="Button_Clicked_7"/>
+                </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

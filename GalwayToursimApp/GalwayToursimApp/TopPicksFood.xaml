@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.TopPicksFood">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
+                <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                    <Label Text="Pullman Restaurant" Font="Bold, 50" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <Button Text="Pullman Restaurant Website" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
+
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                    <Label Text="Loam Restaurant" Font="Bold, 50" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <Button Text="Loam Restaurant Website" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                    <Label Text="Aniar Restaurant" Font="Bold, 50" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <Button Text="Aniar restaurant website" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked_2"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

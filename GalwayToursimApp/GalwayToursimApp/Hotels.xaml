@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.Hotels">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                <Button Text="Hotels in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
+            </StackLayout>
+            <StackLayout>
+                <Image Source="Hotels.jpg"/>
+            </StackLayout>
+            <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="EndAndExpand">
+                <Button Text="Map of Hotels in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked_1"/>
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

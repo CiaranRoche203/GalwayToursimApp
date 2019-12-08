@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.Sports">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                <StackLayout>
+                    <Button Text="Rugby" BackgroundColor="Aquamarine" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Image Source="Connacht.jpg"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Button Text="GAA" BackgroundColor="Aquamarine" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Image Source="GAA.jpg"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Button Text="Galway United" BackgroundColor="Aquamarine" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_2"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Image Source="Galway.jpg"/>
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

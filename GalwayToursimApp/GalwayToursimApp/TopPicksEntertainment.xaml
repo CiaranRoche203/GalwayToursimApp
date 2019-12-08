@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.TopPicksEntertainment">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="StartAndExpand">
+                <StackLayout BackgroundColor="White" Padding="60" VerticalOptions="Center">
+                    <Label Text="Town Hall Theatre" Font="Bold, 20" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text=  "With a 400-seat main auditorium and 52-seat studio space," Font="Bold, 20"
+                        VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text=  "the Town Hall Theatre features Broadway and West End " Font="Bold, 20"
+                        VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text=  " shows, orchestras, dance and occasional films." Font="Bold, 20"
+                        VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+
+                    <Button Text="Town Hall Theatre" BackgroundColor="Aquamarine" Font="Bold, 20" Clicked="Button_Clicked"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="60" VerticalOptions="Center">
+                    <Label Text="Druid Performing Arts Company" Font="Bold, 20" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text=  "Top choice theatre in Galway City" Font="Bold, 20"
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Button Text="Druid Performing Arts Company" Font="Bold, 20" BackgroundColor="Aquamarine" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+                <StackLayout BackgroundColor="White" Padding="60" VerticalOptions="Center">
+                    <Label Text="Trad on the Prom" Font="Bold, 20" VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+                    <Label Text=  "Live Performance in Galway City" Font="Bold, 20"
+                   VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+                    <Button Text="Trad on the Prom" BackgroundColor="Aquamarine" Font="Bold, 20" Clicked="Button_Clicked_2"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

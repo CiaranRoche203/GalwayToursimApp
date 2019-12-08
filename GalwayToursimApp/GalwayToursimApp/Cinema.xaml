@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.Cinema">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="FillAndExpand">
+                <StackLayout>
+                    <Button Text="IMC Galway" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="Popcorn.jpg"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Button Text="Eye Cinema" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_1"/>
+                </StackLayout>
+                <StackLayout>
+                    <Image Source="Movie.jpg"/>
+                </StackLayout>
+                <StackLayout>
+                    <Button Text="Omniplex Salthill" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_2"/>
+                </StackLayout>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

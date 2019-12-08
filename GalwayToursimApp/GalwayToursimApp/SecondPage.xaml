@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GalwayToursimApp.SecondPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
+
+
+            <Button Text="Back to Home" BackgroundColor="Beige" HeightRequest="120" Font="Bold, 20" Clicked="NavigateButton_OnClicked">
+
+            </Button>
+            <Button Text="Restaurants" BackgroundColor='LightGray' HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
+
+            <Button Text="Top Picks" BackgroundColor="Ivory" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_1"/>
+
+
+            <Button Text="Pubs" BackgroundColor="Bisque" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_2"/>
+
+            <Button Text="Hotels" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_3"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
