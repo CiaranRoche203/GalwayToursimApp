@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Restaurants">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
                 <Button Text="Restaurants in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
@@ -15,7 +16,7 @@
                 <Button Text="Map of Restaurants in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked_1"/>
             </StackLayout>
         </StackLayout>
-
+        </ScrollView>
 
     </ContentPage.Content>
 </ContentPage>

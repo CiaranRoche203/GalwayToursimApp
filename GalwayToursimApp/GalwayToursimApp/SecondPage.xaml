@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.SecondPage">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
+        <ScrollView>
+            <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
 
 
             <Button Text="Back to Home" BackgroundColor="Beige" HeightRequest="120" Font="Bold, 20" Clicked="NavigateButton_OnClicked">
@@ -20,5 +21,6 @@
 
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

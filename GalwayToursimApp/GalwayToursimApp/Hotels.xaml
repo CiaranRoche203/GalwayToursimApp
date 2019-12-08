@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Hotels">
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout>
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
                 <Button Text="Hotels in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
@@ -15,5 +16,6 @@
             </StackLayout>
 
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>
