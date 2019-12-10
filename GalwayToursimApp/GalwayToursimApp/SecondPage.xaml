@@ -3,11 +3,13 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.SecondPage">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
+            <!--Creating a stacklayout to place the buttons in-->
             <StackLayout BackgroundColor="CornflowerBlue" Padding="10" VerticalOptions="FillAndExpand">
+                <!--Buttons to navigate to the intended page-->
 
-
-            <Button Text="Back to Home" BackgroundColor="Beige" HeightRequest="120" Font="Bold, 20" Clicked="NavigateButton_OnClicked">
+                <Button Text="Back to Home" BackgroundColor="Beige" HeightRequest="120" Font="Bold, 20" Clicked="NavigateButton_OnClicked">
 
             </Button>
             <Button Text="Restaurants" BackgroundColor='LightGray' HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>

@@ -3,14 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Pubs">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
-            
-        
-        <StackLayout>
+
+            <!--Creating a stacklayout to place the buttons in-->
+            <StackLayout>
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
-                <Button Text="Pubs in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
+                    <!--Buttons to navigate to the intended page-->
+
+                    <Button Text="Pubs in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
 
             </StackLayout>
+                <!--Adding an image to the page-->
             <StackLayout>
                 <Image Source="Pints.jpg"/>
             </StackLayout>

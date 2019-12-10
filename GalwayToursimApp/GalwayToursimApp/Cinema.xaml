@@ -3,11 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Cinema">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
+            <!--Creating a stacklayout to place the buttons in-->
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="FillAndExpand">
+                <!--Buttons to navigate to the intended page-->
                 <StackLayout>
                     <Button Text="IMC Galway" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
                 </StackLayout>
+                <!--Adding an image to the page-->
                 <StackLayout>
                     <Image Source="Popcorn.jpg"/>
                 </StackLayout>

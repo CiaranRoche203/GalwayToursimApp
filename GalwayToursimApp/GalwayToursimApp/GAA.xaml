@@ -4,9 +4,10 @@
              x:Class="GalwayToursimApp.GAA">
     <ContentPage.Content>
         <ScrollView>
-            
-        
-        <StackLayout>
+
+            <!--Scrollview to enable the user to scroll up and down the screen-->
+            <StackLayout>
+                <!--Creating a stacklayout to place the buttons in-->
                 <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="FillAndExpand">
                     <Label Text="Welcome to a Page Dedicated to Galway GAA!" Font="Bold, 30"
                 VerticalOptions="CenterAndExpand" 
@@ -16,6 +17,7 @@
                 <StackLayout>
                     <Image Source="GAA.jpg"/>
                 </StackLayout>
+                <!--Buttons to navigate to the intended page-->
                 <StackLayout>
                     <Button Text="Twitter" BackgroundColor="LightBlue" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked_2"/>
                 </StackLayout>

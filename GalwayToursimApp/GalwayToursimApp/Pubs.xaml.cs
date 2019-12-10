@@ -15,9 +15,10 @@ namespace GalwayToursimApp
         public Pubs()
         {
             InitializeComponent();
+            //adding the image to the source code
             var Image = new Image { Source = "Pints.jpg" };
         }
-
+        //allowing the button click to access the internet website
         private void Button_Clicked(object sender, EventArgs e)
         {
             Device.OpenUri(new Uri("https://www.lonelyplanet.com/ireland/galway-city/nightlife/a/poi-dri/359685"));

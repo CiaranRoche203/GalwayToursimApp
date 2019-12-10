@@ -3,17 +3,18 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Pictures">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
-            
-        
-        <StackLayout>
+
+            <!--Creating a stacklayout to place the buttons in-->
+            <StackLayout>
             <StackLayout>
                 <Label Text="Some of the great pictures of Galway!"
                    HeightRequest="80" Font="Bold, 15"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
-                
+                <!--Adding an image to the page-->
                 <StackLayout>
                 <Image Source="Galway1.jpg"/>
             </StackLayout>

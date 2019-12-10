@@ -3,8 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Sports">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
+            <!--Creating a stacklayout to place the buttons in-->
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                
                 <StackLayout>
                     <Button Text="Rugby" BackgroundColor="Aquamarine" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
                 </StackLayout>

@@ -13,6 +13,7 @@ namespace GalwayToursimApp
         {
             InitializeComponent();
         }
+        //button to navigate to a new page
         private async void NavigateButton_OnClicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new SecondPage());

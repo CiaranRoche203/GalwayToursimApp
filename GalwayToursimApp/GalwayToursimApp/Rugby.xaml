@@ -3,10 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Rugby">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
-            
-        
-        <StackLayout>
+
+            <!--Creating a stacklayout to place the buttons in-->
+            <StackLayout>
             <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="FillAndExpand">
                 <Label Text="Welcome to a Page Dedicated to Connacht Rugby!" Font="Bold, 30"
                 VerticalOptions="CenterAndExpand" 
@@ -17,7 +18,8 @@
             <StackLayout>
                 <Image Source="Connacht.jpg"/>
             </StackLayout>
-            <StackLayout>
+                <!--Buttons to navigate to the intended page-->
+                <StackLayout>
                     <Button Text="League Table" BackgroundColor="Cyan" HeightRequest="120" Font="Bold, 20" Clicked="Button_Clicked"/>
             </StackLayout>
             <StackLayout>

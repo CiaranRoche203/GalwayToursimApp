@@ -3,9 +3,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="GalwayToursimApp.Restaurants">
     <ContentPage.Content>
+        <!--Scrollview to enable the user to scroll up and down the screen-->
         <ScrollView>
+            <!--Creating a stacklayout to place the buttons in-->
         <StackLayout>
-            <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
+                <!--Buttons to navigate to the intended page-->
+                <StackLayout BackgroundColor="White" Padding="10" VerticalOptions="StartAndExpand">
                 <Button Text="Restaurants in Galway" HeightRequest="120" Font="Bold, 20" BackgroundColor="Cyan" Clicked="Button_Clicked"/>
 
             </StackLayout>
